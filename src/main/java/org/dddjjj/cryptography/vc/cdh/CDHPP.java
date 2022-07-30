@@ -1,12 +1,13 @@
 package org.dddjjj.cryptography.vc.cdh;
 
 import it.unisa.dia.gas.jpbc.Element;
+import org.dddjjj.cryptography.vc.SerializableElement;
 
 public class CDHPP {
-    SerializableElement g;
-    int q;
-    SerializableElement[] hi;
-    SerializableElement[][] hij;
+    public SerializableElement g;
+    public int q;
+    public SerializableElement[] hi;
+    public SerializableElement[][] hij;
 
     public Element getHi(int i){
         return hi[i].getElement();

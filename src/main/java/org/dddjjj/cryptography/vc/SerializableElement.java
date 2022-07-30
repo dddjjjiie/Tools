@@ -1,4 +1,4 @@
-package org.dddjjj.cryptography.vc.cdh;
+package org.dddjjj.cryptography.vc;
 
 import it.unisa.dia.gas.jpbc.Element;
 import it.unisa.dia.gas.jpbc.Pairing;

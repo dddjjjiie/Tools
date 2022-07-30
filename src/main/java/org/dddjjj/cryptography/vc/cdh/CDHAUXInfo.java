@@ -1,7 +1,7 @@
 package org.dddjjj.cryptography.vc.cdh;
 
 public class CDHAUXInfo<M> {
-    M[] vector;
+    public M[] vector;
 
     public CDHAUXInfo(){
 
@@ -13,6 +13,10 @@ public class CDHAUXInfo<M> {
 
     public M getMsg(int i){
         return vector[i];
+    }
+
+    public void setMsg(int i, M msg){
+        vector[i] = msg;
     }
 
     public void setVector(M[] vector){
